@@ -6,7 +6,7 @@ const UnityLoader = ({ onIframeLoad }) => {
     const iframe = document.createElement("iframe");
     iframe.src = "BuildOutput/index.html"; // Replace with the actual path to your HTML file
     iframe.style.width = "960px";
-    iframe.style.height = "600px";
+    iframe.style.height = "660px";
     iframe.style.border = "none";
     iframe.style.position = "absolute";
     iframe.style.top = "0";
